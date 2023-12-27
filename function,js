@@ -1,0 +1,14 @@
+//arguments array
+//defualt parameter
+//template literals
+
+function details(name, phnno=999666456 , location) {
+
+    console.log("person details are" + " " + name + " " + phnno + " " +location);
+
+     console.log(`Person details are ${name} ${phnno} ${location}`);
+
+   console.log(arguments)
+    
+}
+details('abc', this.phnno,'banglore')
